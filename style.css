@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>CSS Example</title>
+
+  <style>
+
+    /* CSS starts here */
+
+    body {
+
+      background-color: #f0f8ff; /* light blue background */
+
+      font-family: Arial, sans-serif;
+
+    }
+
+    h1 {
+
+      color: darkblue;
+
+      text-align: center;
+
+    }
+
+    p {
+
+      color: #333333;
+
+      font-size: 18px;
+
+      padding: 10px;
+
+    }
+
+    .highlight {
+
+      background-color: yellow;
+
+      font-weight: bold;
+
+    }
+
+    #special {
+
+      color: red;
+
+      font-size: 20px;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <h1>Welcome to CSS Example</h1>
+
+  <p>This is a simple <span class="highlight">CSS program</span> example.</p>
+
+  <p id="special">This line uses an ID selector.</p>
+
+</body>
+
+</html>
